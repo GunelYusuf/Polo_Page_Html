@@ -28,11 +28,13 @@
         </ul>
     </div>
     <header>
+    <nav>
       <div class="logo">
           <a href="index.html"><h1>Polo</h1></a>
       </div>  
       <div class="navbar-list">
- <ul>
+         
+    <ul>
     <li><a href="#index.html">Home</a></li>
     <li>
         <div class="dropdown-layout">
@@ -738,9 +740,169 @@
                 </ul>
              </div>
     </li>
-    <li><a href="#">Shop</a></li>
+    <li>
+        <div class="shop">
+            <a href="#">Shop</a>
+            <div class="shop-item">
+                <h4>Colomuns</h4>
+            </div>
+            <div class="shop-item-links">
+                <ul>
+                    <li><a href="#">Two Columns</a></li>
+                    <li><a href="#">Three Columns</a></li>
+                    <li><a href="#">Four Columns</a></li>
+                    <li><a href="#">Five Columns</a></li>
+                    <li><a href="#">Six Columns</a></li>
+                    <li><a href="#">Sidebar Sticky</a></li>
+                    <li><a href="#">Wide version</a></li>
+                    <li><a href="#">No page title</a></li>
+                </ul>
+            </div>
+            <div class="shop-item">
+                <h4>Layouts</h4>
+            </div>
+            <div class="shop-item-links">
+                <ul>
+                    <li><a href="#">Left Sidebar</a></li>
+                    <li><a href="#">Right Sidebar</a></li>
+                    <li><a href="#">Both Sidebars</a></li>
+                    <li><a href="#">Fullwidth(Wide)</a></li>
+                </ul>
+                <div class="shop-item">
+                    <h4>Loading Styles</h4>
+                </div>
+                <ul>
+                    <li><a href="#">Load more</a></li>
+                    <li><a href="#">Load Sidebar</a></li>
+                    <li><a href="#">Infinity Scroll</a></li>
+                </ul>
+            </div>
+            <div class="shop-item">
+                <a href="">Order Process</a>
+            </div>
+            <div class="shop-item-links">
+            <ul>
+                <li><a href="#">Shoping Cart</a></li>
+                <li><a href="#">Shoping Cart-Empty</a></li>
+                <li><a href="#">Checkout</a></li>
+                <li><a href="#">Checkout Completed</a></li>
+                <li><a href="#">Wishlist</a></li>
+                <li><a href="#">Wishlist Empty</a></li>
+            </ul>
+            </div>
+            <div class="shop-item">
+                <h4>Single Product</h4>
+            </div>
+            <div class="shop-item-links">
+                <ul>
+                    <li><a href="#">Fullwidth</a></li>
+                    <li><a href="#">Left Sidebar</a></li>
+                    <li><a href="#">Right Sidebar</a></li>
+                    <li><a href="#">Both Sidebar</a></li>
+                </ul>
+            </div>
+            <div class="shop-text">
+                <h1>BIG SALE Upto
+                    70%
+                </h1>
+                <p>The most happiest time of the day!. Morbi sagittis, sem quis ipsum dolor sit amet lacinia faucibus.</p>
+            </div>
+            <div class="shop-button">
+                <button>
+                    <a href="">Shop Now</a>
+                </button>
+            </div>
+            <div class="shop-text1">
+                <h6>*Limited time Offer</h6>
+            </div>
+
+        </div>
+
+    </li>
 </ul>
+<div class="search">
+    <a><i class="icon-x"></i></a>
+    <form class="search-form" method="get">
+        <input class="form-search" name="s" type="text" placeholder="Type &amp; Search...">
+        <span class="text-muted">Start typing &amp; press "Enter" or "ESC" to close</span>
+        </form>
+</div>
+    
+<div class="header-icon">
+    <ul>
+        <li>
+            <a href="#"><i class="fas fa-search"></i></a>
+        </li>
+        <li>
+            <a href="#"><i class="fas fa-globe"></i>
+            <span>EN</span></a>
+            <ul class="lang-content">
+                <li><a href="#">French</a></li>
+                <li><a href="#">Spanish</a></li>
+                <li><a href="#">English</a></li>
+         </ul>
+        </li>
+    </ul>
+</div>
       </div>
+ </nav>
     </header>
+    <div class="main">
+        <div class="main-context">
+           <h2> 5 star Hotel</h2>
+           <h2> Wonderful Feelings</h2>
+        </div>
+
+        <div class="main-form">
+            <form action="">
+                <div class="form-check">
+                    <div class="form-check-in">
+                        <div class="check-label">
+                            <label for="">Check in</label>
+                        </div>
+                        <div class="form-input">
+                            <input type="text" name="fromDate">
+                            <span>
+                             <i class="fas fa-calendar"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="form-check-out">
+                        <div class="check-label">
+                            <label for="">Check out</label>
+                        </div>
+                    <div class="form-input">
+                        <input type="text" name="fromDate">
+                        <span>
+                         <i class="fas fa-calendar"></i>
+                        </span>
+                     </div>
+                    </div>
+                </div>
+                <div class="form-age">
+                    <div class="age-adults">
+                    <label for="adults">Adults</label>
+                    <input type="number" name="adults"  min="1" max="10" placeholder="2">
+                    </div>
+                    <div class="age-children">
+                        <label for="children">Children</label>
+                        <input type="number" name="children"  min="1" max="10" placeholder="0">
+                    </div>
+                </div>
+                <div class="form-room">
+                    <label>Room type</label>
+                    <select class="form-rooms" name="room_type" id="room_type">
+                    <option value="">Select room type</option>
+                    <option value="Single Room">Single Room</option>
+                    <option value="Double Room">Double Room</option>
+                    <option value="King double Room">King double Room</option>
+                    </select>
+                </div>
+                <div class="form-button">
+                    <button class="form-submit">Check Avaliability</button>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
